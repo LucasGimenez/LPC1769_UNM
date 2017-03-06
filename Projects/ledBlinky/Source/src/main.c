@@ -1,9 +1,9 @@
 /*
 ===============================================================================
- Name        : Original.c
+ Name        : main.c
  Author      : $Lucas Gimenez
  Version     :
- Copyright   : $Lucas Gimenez
+ Copyright   : $
  Description : main definition
 ===============================================================================
 */
