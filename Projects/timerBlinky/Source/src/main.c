@@ -8,7 +8,8 @@
 ===============================================================================
 */
 
-/*Este código fue modificado para que funcione con un solo timer (timer 0), y produzca un toggle en el pin P0.22.*/
+/*Este código fue modificado para que funcione con un solo timer (timer 0), y produzca un toggle en el pin P0.22 cada 1 segundo.
+ *La base de tiempo puede ser modificada cambiando el valor de MiliToMicroSec*/
 
 #ifdef __USE_CMSIS
 #include "LPC17xx.h"
@@ -58,7 +59,7 @@ void TIMER0_IRQHandler(void)
 
     uint32_t ledstate;
 
-	ledstate = LPC_GPIO0->FIOPIN;     //Leemos el estado del pin P0.22
+	ledstate = LPC_GPIO0->FIOPIN;                       /*Leemos el estado del pin P0.22*/
 
 	LPC_GPIO0->FIOCLR = ledstate & (1<<led_pin);
 
