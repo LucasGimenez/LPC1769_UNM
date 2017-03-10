@@ -1,7 +1,7 @@
 /*
 ===============================================================================
  Name        : main.c
- Author      : $(author)
+ Author      : $Lucas Gimenez
  Version     :
  Copyright   : $(copyright)
  Description : main definition
