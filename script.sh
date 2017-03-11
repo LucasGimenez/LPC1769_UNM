@@ -5,13 +5,6 @@
 ####################################################################################################################
 
 
-#Para poder hacer las cosas más faciles ingresamos la ruta de los archivos que vamos a subir a GitHub.
-
-#echo "RUTA DONDE SE ENCUENTRAN LOS ARCHIVOS QUE SERÁN SUBIDOS AL REPOSITORIO REMOTO (ejemplo: /home/lucas/repo/LPC1769_UNM ):"
-#read ruta
-
-#cd ruta
-
 #Iniciamos o re-inicializamos git.
 
 git init
