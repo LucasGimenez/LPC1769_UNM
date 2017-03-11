@@ -24,7 +24,7 @@ git commit -m "Uploaded with the script"
 
 #Creamos una variable donde guardaremos la 'url' del repositorio remoto que ingrese el usuario por pantalla.
 
-echo "Ingresá la 'url' del repositorio remoto"
+echo "Ingresá la 'url' del repositorio remoto:"
 read url
 
 #Nos conectamos (linkeamos) al repositorio remoto ingresado, donde vamos a subir nuestros archivos.
@@ -37,8 +37,10 @@ git remote -v
 
 #Si todo está en orden, procedemos a subir los archivos.
 
+echo "Subiendo archivos al repositorio remoto" #Mostramos por pantalla que la carga de los archivos se inició.
+
 git push origin master
 
-echo "Subiendo archivos al repositorio remoto"
+echo "Carga terminada" #Mostramos por pantalla que la carga de los archivos finalizó.
 
 
